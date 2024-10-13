@@ -1,0 +1,45 @@
+body {
+    background-color: #efd5c4;
+}
+
+#saludo {
+    display: flex;
+    justify-content: center;
+}
+#corazon{
+    width: 6%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container .tenor-gif-embed {
+    display: flex;
+    max-width: 200px;
+}
+
+.container .btn {
+    display: flex;
+    gap: 25px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #111;
+    background: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0,0.3);
+
+}
+@media(max-width:500px){
+    #corazon{
+        width: 14%;
+    }
+}
